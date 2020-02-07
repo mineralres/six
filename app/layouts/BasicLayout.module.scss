@@ -1,0 +1,29 @@
+.header {
+  height: 0;
+}
+
+.logo {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.1rem;
+
+  img {
+    max-width: 54px;
+    padding: 8px 5px;
+  }
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+
+  p {
+    font-size: 13px;
+    color: #aaa;
+  }
+
+}
+
+.content {
+  background-color: #fff;
+}

@@ -1,0 +1,25 @@
+.zebraHighlight {
+  background: skyblue;
+}
+
+.zebra {
+  background: lightyellow;
+}
+
+.container {
+  text-align: right;
+}
+
+.smallRow {
+  line-height: 0.8;
+  font-size: 0.8rem;
+}
+
+.blackRow {
+  background: #444;
+  color: white;
+
+  td {
+    border-bottom: 0;
+  }
+}

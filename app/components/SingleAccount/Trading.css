@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+}
+
+.firstRow {
+  margin-top: -16px;
+  border-bottom: 1px solid lightgray;
+}
+
+.secondRow {
+  border-bottom: 1px solid lightgray;
+}
+
+.thirdRow {
+  border-bottom: 1px solid lightgray;
+}
+
+.leftCol {
+  border-right: 1px solid lightgray;
+
+}

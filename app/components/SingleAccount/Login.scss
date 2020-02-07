@@ -1,0 +1,34 @@
+.container {
+  margin-top: 10%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+  .login {
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    width: 480px;
+    margin-top: 15px;
+    padding: 25px 80px;
+
+    .serverSelect {
+      .select {
+        width: 210px;
+      }
+
+      .testButton {
+        float: right;
+        width: 90px;
+      }
+    }
+  }
+}
+
+.login-form {
+  max-width: 300px;
+}
+
+.loginButton {
+  margin-left: 50px;
+}

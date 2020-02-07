@@ -1,0 +1,28 @@
+.container {
+  .item {
+    margin: 0 10px;
+
+    label {
+      font-size: 0.8rem;
+    }
+  }
+
+  .orderButton {
+    width: 50%;
+    height: 40px;
+    color: white;
+    margin-right: 10px;
+  }
+
+  .longButton {
+   color: #a11010;
+  }
+
+  .shortButton {
+    color: #10a110;
+  }
+  .buttonBox {
+    display: flex;
+    justify-content: center;
+  }
+}

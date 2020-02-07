@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .header {
+    width: 96%;
+    display: flex;
+    justify-content: start;
+  }
+
+  background: #888;
+}
+
+.item {
+  text-align: center;
+  color: white;
+
+  p {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+
+  span {
+    font-size: 1.1rem;
+  }
+
+  margin: 5px 5px;
+
+}
