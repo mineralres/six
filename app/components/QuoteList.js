@@ -234,10 +234,10 @@ export default props => {
             onClick: ev => {
               event.emit('quote_list:row:click', record);
             },
-            onDoubleClick: event => {},
-            onContextMenu: event => {},
-            onMouseEnter: event => {}, // 鼠标移入行
-            onMouseLeave: event => {}
+            onDoubleClick: e => {},
+            onContextMenu: e => {},
+            onMouseEnter: e => {}, // 鼠标移入行
+            onMouseLeave: e => {}
           };
         }}
       />

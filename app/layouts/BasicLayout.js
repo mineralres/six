@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Layout, Icon, Spin, Modal, Divider } from 'antd';
+import { Layout } from 'antd';
 import styles from './BasicLayout.module.scss';
 import { useWindowSize } from '../components/Util';
 
-export default (props: any) => {
+export default props => {
   const { children } = props;
   const [width, height] = useWindowSize();
   useEffect(() => {
